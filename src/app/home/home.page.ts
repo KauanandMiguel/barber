@@ -14,6 +14,6 @@ export class HomePage {
   ngOnInit() {
     setTimeout(() =>{
       this.router.navigateByUrl('login');
-    },10000);
+    },2000);
   }
 }
